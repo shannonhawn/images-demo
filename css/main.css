@@ -1,0 +1,21 @@
+html{
+  box-sizing: border-box;
+}
+
+*.*::before, *::after {
+  box-sizing: inherit;
+}
+
+.masthead {
+  padding-top: 6em;
+  background-image: url("../images/logo.svg");
+  background-size:75px auto;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  text-align:center;
+}
+
+img{
+  width:100%;
+  display:black;
+}
