@@ -8,14 +8,33 @@ html{
 
 .masthead {
   padding-top: 6em;
-  background-image: url("../images/logo.svg");
-  background-size:75px auto;
-  background-repeat: no-repeat;
-  background-position: center 10px;
+  background-image: url("../images/logo.svg"), url(../images/green.png);
+  background-size:75px auto, 200px auto;
+  background-repeat: no-repeat, repeat;
+  background-position: center 10px, left top;
   text-align:center;
+}
+
+body{
+  margin:0;
 }
 
 img{
   width:100%;
   display:black;
+}
+
+.box{
+  background-color:#3b3a33;
+  padding:1em;
+}
+
+.btn{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration:none;
+  color: #fff;
+  background-color: #a8ae98;
+  background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
+  border-radius:10px;
 }
